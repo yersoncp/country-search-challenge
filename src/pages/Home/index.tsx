@@ -17,9 +17,6 @@ const Home = () => {
   const [countriesFiltered, setCountriesFiltered] = useState<CountryItem[]>([]);
 
   const handleSearchCountry = (search: string) => {
-    if (!search) {
-      return;
-    }
     getCountries({
       name: {
         regex: search.charAt(0).toUpperCase() + search.slice(1),
