@@ -5,6 +5,6 @@ import Loading from './Loading';
 test('renders loading component', () => {
   render(<Loading />)
 
-  const childrenElement = screen.getByText("Searching...");
+  const childrenElement = screen.getByText("Loading...");
   expect(childrenElement).toBeInTheDocument();
 });
