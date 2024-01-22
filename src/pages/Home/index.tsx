@@ -30,7 +30,7 @@ const Home = () => {
   useEffect(() => {
     getCountries({
       name: {
-        regex: "A"
+        regex: ""
       }
     });
   }, []);
