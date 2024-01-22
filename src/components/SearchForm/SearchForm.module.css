@@ -1,0 +1,23 @@
+.search {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 18px;
+  font-size: 14px;
+  height: 36px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  width: 100%;
+  transition: all .3s;
+}
+
+.search:focus {
+  border: 1px solid #6a5db3;
+}
+
+.container {
+  position: relative;
+}

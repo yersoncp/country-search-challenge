@@ -1,0 +1,12 @@
+.container {
+  margin: 1rem 0;
+  border: 1px solid #eee;
+  background: #efefef;
+  padding: 1rem;
+  overflow-wrap: break-word;
+}
+
+.container>label {
+  padding-bottom: 1rem;
+  display: block;
+}

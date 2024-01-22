@@ -1,0 +1,29 @@
+.listContainer {
+  padding-left: 0;
+  list-style: none;
+}
+
+.listItem {
+  text-decoration: none;
+  background: #fffdfb;
+  display: block;
+  padding: 1rem;
+  transition: all .3s;
+  border-bottom: 1px solid #eee;
+}
+
+.listItem:hover {
+  background: #f5eee0;
+}
+
+.heading {
+  color: #000;
+  padding: .35rem 0;
+  margin: 0;
+}
+
+.description {
+  color: #666;
+  font-size: 13px;
+  text-transform: uppercase;
+}
